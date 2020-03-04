@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=raspberry
+Description=Raspberry Pi Plymouth theme by - Wouter Boevink
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/raspberry
+ScriptFile=/usr/share/plymouth/themes/raspberry/raspberry.script
