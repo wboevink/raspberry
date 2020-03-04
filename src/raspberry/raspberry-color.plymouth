@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=raspberrycolor
+Description=Raspberry Pi Color Plymouth theme by - Wouter Boevink
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/raspberry
+ScriptFile=/usr/share/plymouth/themes/raspberry/raspberry-color.script
