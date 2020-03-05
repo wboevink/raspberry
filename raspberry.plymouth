@@ -4,5 +4,5 @@ Description=Raspberry Pi Plymouth theme by - Wouter Boevink
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/raspberry/white
+ImageDir=/usr/share/plymouth/themes/raspberry/color
 ScriptFile=/usr/share/plymouth/themes/raspberry/raspberry.script

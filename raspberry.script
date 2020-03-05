@@ -8,29 +8,8 @@ Window.SetBackgroundTopColor(0, 0, 0);
 Window.SetBackgroundBottomColor(0, 0, 0);
 
 if (Plymouth.GetMode () == "shutdown")
-# To increase the possibility of certain shutdown messages we do a little math
-
 {
-  a = Math.Random ();
-  if (a <= 0.5)
-    if (a <= 0.25)
-      if (a <= 0.125)
-        if (a <= 0.0625)
-          if (a <= 0.03125)
-            logo.image = Image("shutdown1.png");
-          else
-            logo.image = Image("shutdown2.png");
-        else
-          logo.image = Image("shutdown3.png");
-
-      else
-        logo.image = Image("shutdown4.png");
-
-    else
-      logo.image = Image("shutdown5.png");
-  
-  else
-    logo.image = Image("shutdown6.png");
+  logo.image = Image("shutdown.png");
 }
 
 
